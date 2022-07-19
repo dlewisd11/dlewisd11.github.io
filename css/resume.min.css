@@ -161,3 +161,7 @@ a:active,a:focus,a:hover{
   color: var(--main-color);
   font-weight: bold;
 }
+
+.carousel {
+    max-width: 800px;
+}
