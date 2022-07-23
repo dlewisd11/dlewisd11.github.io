@@ -167,3 +167,27 @@ a:active,a:focus,a:hover{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.img-row {
+    display: flex;
+    max-width: 100%;
+    min-width: 0;
+    gap: 10px;
+}
+
+@media(min-width: 800px) {
+    .img-row {
+        display: flex;
+        max-width: 800px;
+        min-width: 0;
+    }
+}
+
+.img-column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.img-border {
+    border: 1px solid black;
+}
