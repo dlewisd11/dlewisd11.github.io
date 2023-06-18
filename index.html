@@ -289,6 +289,40 @@
           <h2 class="mb-5">Projects</h2>
 
 
+          <h3 class="mb-0">Airport Briefing API</h3>
+          <p>
+            <div>
+              The purpose of this project was to gain exerience building REST APIs using the Spring Boot framework. Since the project was for learning/fun, I built an API in one of my key areas of interest: aviation. The API accepts one or more comma separated airport identifiers via the "identifiers" URL parameter and returns data in JSON format about the airport's facilities and current weather conditions. The API uses two third-party data sources: one for airport/facility data and one for weather data. The program makes secondary API calls to each of these third-party data sources and then aggregates the relevant data into a single JSON response, referred to as an "Airport Briefing", which a pilot would obtain when flying into or out of a particular airport. There are a number of additional features I would want to implement in order to make this API "production-ready". For example, in order to improve performance, I would want to make the third-party API calls run concurrently and I would also want to implement some form of caching to reduce the number of third-party API calls. I would want to improve on the standard exception handling functionality to make the API more descriptive and resilient to specific exception scenarios that could occur. Finally, I would want to implement some additional user configuration options, such as the ability to request a specific number of weather forecast periods and to control which data fields are returned in the response body. This was another fun project that I love to talk about, especially considering it involves aviation!  
+            </div>
+          </p>
+          <p>
+            <div>
+              Tools and technologies used in completion of this project include: 
+            </div>
+          </p>
+          <p>
+            <div>
+              <ul>
+                <li>Java - Spring Boot</li>
+                <li>Maven</li>
+                <li>IntelliJ IDE</li>
+                <li>AWS - Elastic Beanstalk</li>               
+              </ul>
+            </div>
+          </p>
+          <p>
+          <a href="https://github.com/dlewisd11/AirportBriefingAPI" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i>&nbsp;View Source Code Repository</a>
+          </p>
+          <p>
+          <div class="img-row">
+            <div class="img-column" style="max-width: 100%;">
+              <img class="img-border" style="max-width: 100%;" src="img/screenshots/airportbriefingapi_1.png" />
+            </div>
+          </div>
+          <br />
+          <br />
+
+
           <h3 class="mb-0">Bookstore Web Application</h3>
           <p>
             <div>
@@ -406,38 +440,6 @@
             </div>
           </p>
           <p>
-          <br />
-
-
-
-          <h3 class="mb-0">Airport Briefing API</h3>
-          <p>
-            <div>
-              The purpose of this project was to gain exerience building REST APIs using the Spring Boot framework. Since the project was for learning/fun, I built an API in one of my key areas of interest: aviation. The API accepts one or more comma separated airport identifiers via the "identifiers" URL parameter and returns data in JSON format about the airport's facilities and current weather conditions. The API uses two third-party data sources: one for airport/facility data and one for weather data. The program makes secondary API calls to each of these third-party data sources and then aggregates the relevant data into a single JSON response, referred to as an "Airport Briefing", which a pilot would obtain when flying into or out of a particular airport. There are a number of additional features I would want to implement in order to make this API "production-ready". For example, in order to improve performance, I would want to make the third-party API calls run concurrently and I would also want to implement some form of caching to reduce the number of third-party API calls. I would want to improve on the standard exception handling functionality to make the API more descriptive and resilient to specific exception scenarios that could occur. Finally, I would want to implement some additional user configuration options, such as the ability to request a specific number of weather forecast periods and to control which data fields are returned in the response body. This was another fun project that I love to talk about, especially considering it involves aviation!  
-            </div>
-          </p>
-          <p>
-            <div>
-              Tools and technologies used in completion of this project include: 
-            </div>
-          </p>
-          <p>
-            <div>
-              <ul>
-                <li>Java - Spring Boot</li>
-                <li>Maven</li>
-                <li>IntelliJ IDE</li>
-                <li>AWS - Elastic Beanstalk</li>               
-              </ul>
-            </div>
-          </p>
-          <p>
-          <div class="img-row">
-            <div class="img-column" style="max-width: 100%;">
-              <img class="img-border" style="max-width: 100%;" src="img/screenshots/airportbriefingapi_1.png" />
-            </div>
-          </div>
-          <br />
           <br /> 
 
 
